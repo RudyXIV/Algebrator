@@ -8,7 +8,7 @@ public class MainTest {
 
 	public static void main(String[] args) {
 		Parse parse = new Parse();
-		Equation e = parse.parse("2x+7=9*7");
+		Equation e = parse.parse("2x-7=9*7");
 		System.out.println(e.listTermsForSet(0));
 		System.out.println(e.listTermsForSet(1));
 	}
