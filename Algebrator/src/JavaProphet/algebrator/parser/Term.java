@@ -6,14 +6,9 @@ package JavaProphet.algebrator.parser;
 public class Term {
 
 	private String raw = "";
-	//private HashMap<>
 
 	public Term(String raw) {
 		this.raw = raw;
-	}
-
-	public boolean hasVariable() {
-
 	}
 
 }
