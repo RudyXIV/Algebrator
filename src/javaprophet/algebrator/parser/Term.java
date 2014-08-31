@@ -33,6 +33,10 @@ public class Term {
 		return new String(sA);
 	}
 
+	public void format() {
+		//TODO: this needs a ruleset too. maybe a system for these rules? :P
+	}
+
 	public boolean equals(Term term) {
 		if(term.getRaw().equals(getRaw())) {
 			return true;
