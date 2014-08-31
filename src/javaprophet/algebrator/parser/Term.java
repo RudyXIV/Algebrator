@@ -33,6 +33,15 @@ public class Term {
 		return new String(sA);
 	}
 
+	public boolean equals(Term term) {
+		if(term.getRaw().equals(getRaw())) {
+			return true;
+		}else {
+			//TODO: run evaluator;
+		}
+		return false;
+	}
+
 	public String getRaw() {
 		return raw;
 	}
